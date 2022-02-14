@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    background: #fff;
+}
+
+.header {
+    background-color: #253062;
+    text-align: center;
+    padding: 5px 0;
+  
+  
+
+}
+
+.header-title {
+    color: rgb(8, 228, 144);  
+    padding: 10px 0;
+    text-transform: uppercase;
+
+
+}
+
+.header-description {
+    color: #fff;
+    padding: 10px 0;
+
+}
+.title-box{
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+span{
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(98, 223, 26);  
+
+}
+span:hover{
+    text-transform: uppercase;
+}
+
+.figures {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    max-width: 1200px;
+    align-items: center; 
+    
+}
+.box{
+    width: 40%;
+    height: 80%;
+    border: 3px solid #253062;
+    border-radius: 10px;
+    margin: 15px;
+    float: right;
+
+}
+
+.box-header{
+    background-color: #253062;
+    text-align: center;
+    padding: 10px;
+    color: rgb(8, 228, 144); 
+    letter-spacing: 15px;
+
+}
+
+.box-main{
+    text-align: center;
+    padding: 10px;
+}
+.box-main__text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:justify;
+}
+
+.box-main__btn {
+    background-color: #253062;
+    color: rgb(8, 228, 144);  
+    width: 60%;
+    font-size: 23px;
+    padding: 18px;
+    margin: 15px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.box-main__btn:hover{
+    background-color: #09164d;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.box-main__btn:active{
+    background-color: #011068;
+}
+#error_message {
+    color: rgb(241, 9, 9);
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+#gana{
+text-align: center;
+margin: 80px;
+width: 12%;
+height: 345pt;
+margin-top: 5px;
+background: rgba(153, 149, 153, 0.667);
+border: solid #253062;
+border-radius: 5px;
+float: right;
+text-transform:uppercase;
+text-shadow: 5px 5px 8px red;
+    cursor: default;
+    -webkit-animation: bounce .4s ease infinite alternate;
+    color: yellow;
+    text-align: center;
+    line-height: 100px;
+}
+
+#c{
+
+background: rgba(73, 230, 73, 0.667);
+border: solid #253062;
+border-radius: 5px;
+margin: 0 0 0 20px;
+
+    
+}
+
+#pista {
+   text-align: center;
+    color: brown;
+
+
+}
+p{
+    margin: 0 0 0 20px;
+}
+#boton{
+text-decoration:none;
+color:#333333;
+padding-left:10px;
+padding-right:10px;
+background-color:#FFD27D;
+border-color: #d8d8d8;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

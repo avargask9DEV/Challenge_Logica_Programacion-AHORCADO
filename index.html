@@ -1,0 +1,60 @@
+
+<!--Challenge-Logica Programación Desarrollada por Alosno Vargas -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Oracle ONE-HANGMAN </title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>  
+<header class="header">
+    <h1 class="header-title">Challenge Oracle ONE
+      Principiante en programación</h1>
+
+    <p class="header-description">
+        Task developed by <span>Alonso Vargas</span>  | Hangman Game With JavaScript
+    </p>
+    
+</header>
+    <section class="figures"> 
+      <h2 class="title-box">HANGMAN GAME</h2>
+        <div class="box">
+            <div class="box-header">
+                <h2>Comencemos... </h2>
+            </div>
+            <div class="box-main">
+                <h2>Intrucciones</h2>
+                <p class="box-main__text">  <br>
+                   1. Funciona solo con letras mayúsculas <br><br>
+                   2. No deben ser utilizadas letras con acentos ni caracteres especiales</p>
+                    <br>
+                    <hr>
+                
+                <button  class="box-main__btn" id="addWords" type="button" name="addWords-btn" onclick="obtener()"> Add Words</button>
+
+                <button  class="box-main__btn" id="start-btn" type="button" name="start-btn" onclick="iniciar()"> Start Game</button>
+
+                               <br>
+            </div>
+        </div>
+    
+    </section>
+   
+    <p id="gana"> Resultado de juego </p>
+    <canvas id="c"></canvas>
+   
+    <p>
+        Ingresa una letra:
+        <input type="text" id="letra" />
+        <input type="button" id="boton" value="Verificar!" />
+    </p>
+    <h2 id="pista">_ _ _ _ _ _ _ _ _ </h2>
+</body>
+<script src="script.js"></script>
+<script src="sweetalert2.all.min.js"></script>
+       
+</html>
